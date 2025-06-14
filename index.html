@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Antools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./reset.css">
   </head>
   <body>
     <header>
@@ -37,7 +43,11 @@
           Antool is a web collection of information on paid or free Design and
           Development tools
         </p>
-        <input type="text" class="hero-input" />
+        <input
+          type="text"
+          class="hero-input"
+          placeholder="find more than 430+ tools..."
+        />
         <button type="submit" class="hero-btn">Search</button>
       </section>
       <section class="popular">
@@ -48,7 +58,7 @@
         </p>
         <ul class="popular-list">
           <li class="popular-item">
-            <h3 class="item-title">Figma</h3>
+            <h3 class="item-title">FIGMA</h3>
             <img src="./images/figma.png" alt="" class="item-logo" />
             <p class="item-access">Free</p>
             <p class="item-description"></p>
@@ -184,10 +194,21 @@
         <p class="join-description">
           Join us and get tips & tricks to become a great Designer and Developer
         </p>
-        <input type="text" class="join-input" />
-        <button type="submit" class="join-btn"></button>
+        <input
+          type="email"
+          class="join-input"
+          placeholder="Enter your email..."
+        />
+        <button type="submit" class="join-btn">Join Us</button>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-section">
+        <a href="" class="logo-link">
+          <img src="./images/Substract_logo.svg" alt="logo" class="logo-img" />
+          antools.
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
