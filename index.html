@@ -15,33 +15,27 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <a href="" class="logo-link">
-            <img
-              src="./images/Substract_logo.svg"
-              alt="logo"
-              class="logo-img"
-            />
-            antools.
-          </a>
-          <ul class="nav-list">
-            <li class="navlist-item">Home</li>
-            <li class="navlist-item">Categories</li>
-            <li class="navlist-item">My Collections</li>
-            <li class="navlist-item">Blog</li>
-          </ul>
-        </nav>
-        <ul class="account-list">
-          <li class="acc-list-item">
-            <button class="login-btn">Login</button>
-          </li>
-          <li class="acc-list-item">
-            <button class="signup-btn">Sign Up</button>
-          </li>
+    <header class="container header">
+      <a href="" class="logo-link">
+        <img src="./images/Substract_logo.svg" alt="logo" class="logo-img" />
+        antools.
+      </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="navlist-item">Home</li>
+          <li class="navlist-item">Categories</li>
+          <li class="navlist-item">My Collections</li>
+          <li class="navlist-item">Blog</li>
         </ul>
-      </div>
+      </nav>
+      <ul class="account-list">
+        <li class="acc-list-item">
+          <button class="login-btn">Login</button>
+        </li>
+        <li class="acc-list-item">
+          <button class="signup-btn">Sign Up</button>
+        </li>
+      </ul>
     </header>
 
     <main>
@@ -52,172 +46,348 @@
             Antool is a web collection of information on paid or free Design and
             Development tools
           </p>
-          <input
-            type="text"
-            class="hero-input"
-            placeholder="find more than 430+ tools..."
-          />
-          <button type="submit" class="hero-btn">Search</button>
+          <form>
+            <input
+              type="text"
+              class="hero-input"
+              placeholder="find more than 430+ tools..."
+            />
+            <button type="submit" class="hero-btn">Search</button>
+          </form>
+          <ul class="hero-social">
+            <li class="social-item">
+              <a
+                href="https://facebook.com/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img src="./images/facebook.png" alt="Facebook" />
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://instagram.com/"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
+                <img src="./images/instagram.png" alt="Instagram" />
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="https://x.com/" target="_blank"
+                ><img src="./images/twitter.png" alt="Twitter"
+              /></a>
+            </li>
+          </ul>
         </div>
       </section>
 
-      <section class="popular">
-        <div class="container">
-          <h1 class="popular-title">Most Popular Tools</h1>
-          <p class="popular-description">
-            Tools for the best Designers and Developers most popularly used in
-            the world
-          </p>
-          <ul class="popular-list">
-            <li class="popular-item">
-              <h3 class="item-title">FIGMA</h3>
+      <section class="container popular">
+        <h2 class="popular-title">Most Popular Tools</h2>
+        <p class="popular-description">
+          Tools for the best Designers and Developers most popularly used in the
+          world
+        </p>
+        <ul class="popular-list">
+          <li class="popular-item">
+            <div>
               <img src="./images/figma.png" alt="" class="item-logo" />
-              <p class="item-access">Free</p>
-              <p class="item-description"></p>
+              <div class="text">
+                <h3 class="item-title">FIGMA</h3>
+                <p class="item-access">Free</p>
+              </div>
+            </div>
+            <p class="item-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+            <div class="btns">
+              <ul>
+                <li>
+                  <button class="like">
+                    <img
+                      src="./images/flat-color-icons_like.png"
+                      alt="Like Icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="download">
+                    <img
+                      src="./images/eva_folder-add-outline.png"
+                      alt="Download Icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+
               <button class="visit-btn">Visit</button>
-            </li>
-            <li class="popular-item">
-              <h3 class="item-title">Sketch</h3>
+            </div>
+          </li>
+          <li class="popular-item">
+            <div>
               <img src="./images/sketch.png" alt="" class="item-logo" />
-              <p class="item-access">Free & Paid</p>
-              <p class="item-description"></p>
+              <div class="text">
+                <h3 class="item-title">Sketch</h3>
+                <p class="item-access">Free & Paid</p>
+              </div>
+            </div>
+            <p class="item-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="btns">
+              <ul>
+                <li>
+                  <button class="like">
+                    <img
+                      src="./images/flat-color-icons_like.png"
+                      alt="Like Icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="download">
+                    <img
+                      src="./images/eva_folder-add-outline.png"
+                      alt="Download Icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+
               <button class="visit-btn">Visit</button>
-            </li>
-            <li class="popular-item">
-              <h3 class="item-title">Visual Studio Code</h3>
+            </div>
+          </li>
+          <li class="popular-item">
+            <div>
               <img src="./images/vscode.png" alt="" class="item-logo" />
-              <p class="item-access">Free</p>
-              <p class="item-description"></p>
+              <div class="text">
+                <h3 class="item-title">Visual Studio Code</h3>
+                <p class="item-access">Free</p>
+              </div>
+            </div>
+            <p class="item-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="btns">
+              <ul>
+                <li>
+                  <button class="like">
+                    <img
+                      src="./images/flat-color-icons_like.png"
+                      alt="Like Icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="download">
+                    <img
+                      src="./images/eva_folder-add-outline.png"
+                      alt="Download Icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+
               <button class="visit-btn">Visit</button>
-            </li>
-            <li class="popular-item">
-              <h3 class="item-title">Notion</h3>
+            </div>
+          </li>
+          <li class="popular-item">
+            <div>
               <img src="./images/notion.png" alt="" class="item-logo" />
-              <p class="item-access">Free & Paid</p>
-              <p class="item-description"></p>
+              <div class="text">
+                <h3 class="item-title">Notion</h3>
+                <p class="item-access">Free & Paid</p>
+              </div>
+            </div>
+            <p class="item-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="btns">
+              <ul>
+                <li>
+                  <button class="like">
+                    <img
+                      src="./images/flat-color-icons_like.png"
+                      alt="Like Icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="download">
+                    <img
+                      src="./images/eva_folder-add-outline.png"
+                      alt="Download Icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+
               <button class="visit-btn">Visit</button>
-            </li>
-            <li class="popular-item">
-              <h3 class="item-title">Slack</h3>
+            </div>
+          </li>
+          <li class="popular-item">
+            <div>
               <img src="./images/slack.png" alt="" class="item-logo" />
-              <p class="item-access">Free & Paid</p>
-              <p class="item-description"></p>
+              <div class="text">
+                <h3 class="item-title">Slack</h3>
+                <p class="item-access">Free & Paid</p>
+              </div>
+            </div>
+            <p class="item-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="btns">
+              <ul>
+                <li>
+                  <button class="like">
+                    <img
+                      src="./images/flat-color-icons_like.png"
+                      alt="Like Icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="download">
+                    <img
+                      src="./images/eva_folder-add-outline.png"
+                      alt="Download Icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+
               <button class="visit-btn">Visit</button>
-            </li>
-            <li class="popular-item">
-              <h3 class="item-title">Invision</h3>
+            </div>
+          </li>
+          <li class="popular-item">
+            <div>
               <img src="./images/invision.png" alt="" class="item-logo" />
-              <p class="item-access">Free & Paid</p>
-              <p class="item-description"></p>
+              <div class="text">
+                <h3 class="item-title">Invision</h3>
+                <p class="item-access">Free & Paid</p>
+              </div>
+            </div>
+            <p class="item-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+            <div class="btns">
+              <ul>
+                <li>
+                  <button class="like">
+                    <img
+                      src="./images/flat-color-icons_like.png"
+                      alt="Like Icon"
+                    />
+                  </button>
+                </li>
+                <li>
+                  <a href="#" class="download">
+                    <img
+                      src="./images/eva_folder-add-outline.png"
+                      alt="Download Icon"
+                    />
+                  </a>
+                </li>
+              </ul>
+
               <button class="visit-btn">Visit</button>
-            </li>
-          </ul>
-          <button class="load-more">Load More</button>
-        </div>
+            </div>
+          </li>
+        </ul>
+        <button class="load-more">Load More</button>
       </section>
 
-      <section class="brand">
-        <div class="container">
-          <h4 class="brand-title">Trusted more than 150+ brand</h4>
-          <ul class="brand-list">
-            <li class="brand-list-item">
-              <img
-                src="./images/microsoft_logo.png"
-                alt="Microsoft Logo"
-                class="brand-icon"
-              />
-            </li>
-            <li class="brand-list-item">
-              <img
-                src="./images/google_logo.png"
-                alt="Google Logo"
-                class="brand-logo"
-              />
-            </li>
-            <li class="brand-list-item">
-              <img
-                src="./images/slack_logo.png"
-                alt="Slack Logo"
-                class="brand-logo"
-              />
-            </li>
-            <li class="brand-list-item">
-              <img
-                src="./images/wordpress_logo.png"
-                alt=""
-                class="brand-logo"
-              />
-            </li>
-          </ul>
-        </div>
+      <section class="container brand">
+        <h2 class="brand-title">Trusted more than 150+ brand</h2>
+        <ul class="brand-list">
+          <li class="brand-list-item">
+            <img
+              src="./images/microsoft_logo.png"
+              alt="Microsoft Logo"
+              class="brand-icon"
+            />
+          </li>
+          <li class="brand-list-item">
+            <img
+              src="./images/google_logo.png"
+              alt="Google Logo"
+              class="brand-logo"
+            />
+          </li>
+          <li class="brand-list-item">
+            <img
+              src="./images/slack_logo.png"
+              alt="Slack Logo"
+              class="brand-logo"
+            />
+          </li>
+          <li class="brand-list-item">
+            <img src="./images/wordpress_logo.png" alt="" class="brand-logo" />
+          </li>
+        </ul>
       </section>
 
-      <section class="newcomer">
-        <div class="container">
-          <h3 class="newcomer-title">Newcomer Tools</h3>
+      <section class="container newcomer">
+        <div>
+          <h2 class="newcomer-title">Newcomer Tools</h2>
           <p class="newcomer-description">
             Wow! See the latest update of the most recommended tools from
             reliable designers and developers
           </p>
           <button class="explore-btn">Explore more</button>
-          <ul class="newcomer-list">
-            <li class="newcomer-item">
-              <h3 class="item-title">Zeplin</h3>
-              <p class="item-access">Free & Paid</p>
-              <p class="item-descirption">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-              <button class="visit-btn">Visit</button>
-            </li>
-            <li class="newcomer-item">
-              <h3 class="item-title">PHPStorm</h3>
-              <p class="item-access">Free</p>
-              <p class="item-descirption">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-              <button class="visit-btn">Visit</button>
-            </li>
-            <li class="newcomer-item">
-              <h3 class="item-title">Toolsbox</h3>
-              <p class="item-access">Free</p>
-              <p class="item-descirption">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-              <button class="visit-btn">Visit</button>
-            </li>
-            <li class="newcomer-item">
-              <h3 class="item-title">Procreate</h3>
-              <p class="item-access">Paid</p>
-              <p class="item-descirption">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              </p>
-              <button class="visit-btn">Visit</button>
-            </li>
-          </ul>
         </div>
+
+        <ul class="newcomer-list">
+          <li class="newcomer-item">
+            <h3 class="item-title">Zeplin</h3>
+            <p class="item-access">Free & Paid</p>
+            <p class="item-descirption">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="visit-btn">Visit</button>
+          </li>
+          <li class="newcomer-item">
+            <h3 class="item-title">PHPStorm</h3>
+            <p class="item-access">Free</p>
+            <p class="item-descirption">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="visit-btn">Visit</button>
+          </li>
+          <li class="newcomer-item">
+            <h3 class="item-title">Toolsbox</h3>
+            <p class="item-access">Free</p>
+            <p class="item-descirption">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="visit-btn">Visit</button>
+          </li>
+          <li class="newcomer-item">
+            <h3 class="item-title">Procreate</h3>
+            <p class="item-access">Paid</p>
+            <p class="item-descirption">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <button class="visit-btn">Visit</button>
+          </li>
+        </ul>
       </section>
 
-      <section class="testimonial">
-        <div class="container">
-          <div>
-            <img
-              src="./images/richard.png"
-              alt="Richard"
-              class="ronald-image"
-            />
-            <div class="ronald-info">
-              <h4 class="ronald-name">Ronald Richards</h4>
-              <p class="ronald-work">Product Manager</p>
-            </div>
-            <p class="ronald-description">
-              Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
-              reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do
-              nulla velit labore occaecat do deserunt Lorem magna officia
-              incididunt consectetur amet. Sunt consectetur veniam minim ex
-              commodo sint non. Occaecat aute officia excepteur non laboris id
-              qui ad.
-            </p>
+      <section class="container testimonial">
+        <div>
+          <img src="./images/richard.png" alt="Richard" class="ronald-image" />
+          <div class="ronald-info">
+            <h4 class="ronald-name">Ronald Richards</h4>
+            <p class="ronald-work">Product Manager</p>
           </div>
+          <p class="ronald-description">
+            Incididunt cillum do sint sint enim ullamco id deserunt mollit qui
+            reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla
+            velit labore occaecat do deserunt Lorem magna officia incididunt
+            consectetur amet. Sunt consectetur veniam minim ex commodo sint non.
+            Occaecat aute officia excepteur non laboris id qui ad.
+          </p>
         </div>
       </section>
 
@@ -228,22 +398,55 @@
             Join us and get tips & tricks to become a great Designer and
             Developer
           </p>
-          <input
-            type="email"
-            class="join-input"
-            placeholder="Enter your email..."
-          />
-          <button type="submit" class="join-btn">Join Us</button>
+          <form>
+            <input
+              type="email"
+              class="join-input"
+              placeholder="Enter your email..."
+            />
+            <button type="submit" class="join-btn">Join Us</button>
+          </form>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="footer-section container">
-        <a href="" class="logo-link">
-          <img src="./images/Substract_logo.svg" alt="logo" class="logo-img" />
-          antools.
-        </a>
+        <div class="antools">
+          <a href="" class="logo-link">
+            <img
+              src="./images/Substract_logo.svg"
+              alt="logo"
+              class="logo-img"
+            />
+            antools.
+          </a>
+          <p class="copyright">Copyright 2021. Antools</p>
+          <p class="logo-p">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </p>
+        </div>
+        <div class="contact-us">
+          <h3 class="contact-title">Contact Us</h3>
+          <ul class="contact-adresses">
+            <li class="adress-item"><address>+621987463</address></li>
+            <li class="adress-item">
+              <address>M Building, No.10 A</address>
+              /li>
+            </li>
+            <li class="adress-item"><address>antools@awesome.com</address></li>
+          </ul>
+        </div>
+        <div class="categories">
+          <p class="categories-design">Design</p>
+          <p class="categories-dev">Development</p>
+        </div>
+        <div class="company-info">
+          <a href="#" class="info-link"> About Us </a>
+          <a href="#">Our Partners</a>
+          <a href="#">Blog</a>
+        </div>
       </div>
     </footer>
   </body>
