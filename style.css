@@ -374,6 +374,8 @@ footer .logo-img {
   display: flex;
   align-items: flex-start; 
   gap: 156px; 
+  align-items: flex-start;
+  gap: 156px;
 }
 
 
