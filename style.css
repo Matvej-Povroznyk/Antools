@@ -189,7 +189,7 @@ body {
 
 .btns ul {
   display: flex;
-  gap: 30px;
+  gap: px;
 }
 
 .like {
@@ -214,18 +214,23 @@ body {
   background-color: transparent;
 }
 
-.popular-item {
+.popular-item,
+.newcomer-item {
   border-radius: 15px;
   padding: 33px;
-  flex-basis: calc((100% - (24px * 2)) / 3);
   display: flex;
   flex-direction: column;
 }
 
-.popular-item > div {
+.popular-item {
+  flex-basis: calc((100% - (24px * 2)) / 3);
+}
+
+.popular-item > div,
+.newcomer-item > div {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
   margin-bottom: 30px;
 }
 
@@ -268,4 +273,134 @@ body {
 
 footer .logo-img {
   background-color: var(--accent-color);
+}
+
+.brand {
+  margin-top: 200px;
+  background-color: rgba(44, 53, 61, 0.2);
+  border-radius: 25px;
+  text-align: center;
+  padding: 55px 83px 56px 82px;
+}
+
+.brand-list {
+  margin-top: 55px;
+  display: flex;
+  gap: 107px;
+  justify-content: center;
+}
+
+.newcomer {
+  margin-top: 200px;
+}
+
+.newcomer-description {
+  color: rgba(255, 255, 255, 0.55);
+  width: 427px;
+  margin-top: 30px;
+}
+
+.explore-btn {
+  padding: 16px 40px;
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  color: white;
+  margin-top: 60px;
+}
+
+.newcomer-content {
+  display: flex;
+  gap: 197px;
+}
+
+.newcomer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.newcomer-item {
+  flex-basis: calc((100% - 24px) / 2);
+}
+
+.testimonial {
+  margin-top: 200px;
+}
+
+.testimonial > div {
+  display: flex;
+  gap: 57px;
+}
+
+.join {
+  margin-top: 25px;
+  display: flex;
+}
+
+.join-title {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.join-description {
+  width: 427px;
+  margin-bottom: 100px;
+  text-align: center;
+  justify-self: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.join-btn {
+  padding: 12px 36px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 8px;
+}
+
+.join form {
+  display: flex;
+  justify-content: center;
+}
+
+.join-input {
+  padding: 22px;
+  background-color: var(--accent-color2);
+  border-radius: 15px;
+  width: 549px;
+}
+
+/* Основной контейнер футера */
+.footer-section {
+  display: flex;
+  align-items: flex-start; /* Выравнивание по верху */
+  gap: 156px; /* Фиксированный отступ между .antools и .contact */
+}
+
+/* Левая секция с логотипом и описанием */
+.antools {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo-img {
+  margin-right: 10px;
+}
+
+/* Правая секция с контактами, категориями и ссылками */
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company-info a {
+  color: white;
 }
