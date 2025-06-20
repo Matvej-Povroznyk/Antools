@@ -369,14 +369,14 @@ footer .logo-img {
   width: 549px;
 }
 
-/* Основной контейнер футера */
+
 .footer-section {
   display: flex;
-  align-items: flex-start; /* Выравнивание по верху */
-  gap: 156px; /* Фиксированный отступ между .antools и .contact */
+  align-items: flex-start;
+  gap: 156px;
 }
 
-/* Левая секция с логотипом и описанием */
+
 .antools {
   width: 260px;
   display: flex;
@@ -394,7 +394,7 @@ footer .logo-img {
   margin-right: 10px;
 }
 
-/* Правая секция с контактами, категориями и ссылками */
+
 .contact {
   display: flex;
   flex-direction: column;
