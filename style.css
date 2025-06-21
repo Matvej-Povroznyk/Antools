@@ -25,6 +25,10 @@ body {
   margin-top: 26px;
 }
 
+.header .logo-img {
+  margin-right: 21px;
+}
+
 .nav-list {
   display: flex;
   gap: 60px;
@@ -271,10 +275,6 @@ body {
   line-height: 2.143;
 }
 
-footer .logo-img {
-  background-color: var(--accent-color);
-}
-
 .brand {
   margin-top: 200px;
   background-color: rgba(44, 53, 61, 0.2);
@@ -369,40 +369,43 @@ footer .logo-img {
   width: 549px;
 }
 
-
-.footer-section {
-  display: flex;
-  align-items: flex-start; 
-  gap: 156px; 
-  align-items: flex-start;
-  gap: 156px;
+footer {
+  padding-bottom: 100px;
+  margin-top: 240px;
+  border-top: 1px rgba(128, 128, 128, 0.3) solid;
 }
 
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
+}
 
-.antools {
+footer .logo-img {
+  padding: 7px 9px;
+  background-color: var(--accent-color);
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.copyright {
+  margin-top: 25px;
+  margin-bottom: 21px;
+}
+
+.antools-desc {
   width: 260px;
-  display: flex;
-  flex-direction: column;
+}
+
+.contact-title,
+.categories-title,
+.company-title {
+  margin-bottom: 20px;
+}
+
+.address-list,
+.categories-list,
+.company-list {
   gap: 10px;
-}
-
-.logo-link {
-  display: flex;
-  align-items: center;
-  color: white;
-}
-
-.logo-img {
-  margin-right: 10px;
-}
-
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.company-info a {
-  color: white;
 }
